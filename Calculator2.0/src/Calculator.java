@@ -2,8 +2,8 @@ import java.util.Scanner;//import scaneer class
 public class Calculator {
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);//intialise scanner
-        System.out.println("Enter num1:");//display enter firtst number
-        int num1 = read.nextInt();//read firstnumber
+        System.out.println("Enter num1:");//display enter first number
+        int num1 = read.nextInt();//read first number
         System.out.println("Enter num2:");//display enter second number
         int num2 = read.nextInt();//read second number
         System.out.println("enter operation (+, -, *, /): ");//display enter operation
